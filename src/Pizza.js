@@ -17,6 +17,7 @@ const Pizza = (props) => {
       <p>Time to order pizza</p>
 
       <form onSubmit={onSubmit}>
+
         <label>
           Name:
           <input 
@@ -37,7 +38,7 @@ const Pizza = (props) => {
             
           >
             <option value="">- Select an option -</option>
-            <option value="8">8"</option>
+            <option value="8" className="8">8"</option>
             <option value="12">12"</option>
             <option value="14">14"</option>
           </select>

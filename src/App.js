@@ -83,6 +83,7 @@ const App = () => {
           {/* We can pass all needed props into <Pizza propName={passedProp}/> */}
           <Pizza formValues={formValues} updateForm={updateForm} onSubmit={onSubmit} />
           <p className="error">{formErrors.name}</p>
+          <p className="error">{formErrors.size}</p>
         </Route>
         </Switch>
       </div>

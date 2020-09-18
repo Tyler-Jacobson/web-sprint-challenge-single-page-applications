@@ -41,8 +41,9 @@ describe("Order Pizza", () => {
     .type('Your Name')
     .should('have.value', 'Your Name')
 
-    // size()
-    // .select(eight)
+    size()
+    .select("8")
+    .should('have.value', '8')
 
     pepperoni()
     .should('not.have.checked')
